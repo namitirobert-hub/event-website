@@ -1,0 +1,187 @@
+/*basic page styles*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+/*header styles*/
+header {
+  background-color: lightblue;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-emphasis-color: initial;
+}
+/*navigation styles*/
+nav {
+  background-color: lightblue;
+  color: tomato;
+  padding: 10px;
+  text-align: center;
+}
+/*main content styles*/
+main {
+  padding: 20px;
+}
+/*footer styles*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/*form styles*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+/*input field styles*/
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*submit button styles*/
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}   
+/*submit button hover effect*/
+input[type="submit"]:hover {
+  background-color: #555;
+}   
+/*table styles*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+/*table header styles*/
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+/*table cell styles*/
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}   
+/*table row hover effect*/
+tr:hover {
+  background-color: #f5f5f5;
+}
+/*responsive styles*/
+@media (max-width: 600px) {
+  header, nav, main, footer {
+    padding: 10px;
+  }
+  form {
+    padding: 10px;
+  }
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+/*image styles*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/*link styles*/
+a {
+  color: #333;
+  text-decoration: none;
+}
+/*link hover effect*/
+a:hover {
+  text-decoration: underline;
+}
+/*list styles*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/*list item styles*/
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/*list item hover effect*/
+li:hover {
+  background-color: #f5f5f5;
+}
+/*button styles*/
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*button hover effect*/
+button:hover {
+  background-color: #555;
+}
+/*heading styles*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: italic, sans-serif;
+  color: #333;
+  margin: 10px 0;
+}   
+/*paragraph styles*/
+p {
+  color: #666;
+  line-height: 1.5;
+  margin: 10px 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+/*section styles*/
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+/*section heading styles*/
+section h2 {
+  margin: 0 0 10px 0;
+}
+/*section paragraph styles*/
+section p {
+  margin: 0;
+}
+/*card styles*/
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+/*card heading styles*/
+.card h3 {
+  margin: 0 0 10px 0;
+}
+/*card paragraph styles*/
+.card p {
+  margin: 0;
+}
+/
